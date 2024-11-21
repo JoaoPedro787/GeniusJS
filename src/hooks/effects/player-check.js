@@ -2,19 +2,22 @@ import { useEffect } from "react";
 
 const useUserPlayCheck = ({ gameArray, userArray, setGame, setStart, setUserArray, setUser }) => {
     useEffect(() => {
-        if (userArray.length === gameArray.length && gameArray.length > 0) {
+        if (userArray.length > 0) {
             const isCorrect = userArray.every((el, i) => el === gameArray[i]);
 
-            if (isCorrect) {
+            if (isCorrect && userArray.length === gameArray.length) {
                 const randomNumber = Math.floor(Math.random() * 4);
-                setGame((prev) => ([...prev, randomNumber]))
+                setGame((prev) => ([...prev, randomNumber]));
+            }
+            else if (isCorrect) {
+                return;
             }
             else {
                 alert('VOCÊ PERDEU!')
                 setStart(true);
-                setUser(false);
                 setGame([]);
             };
+
             setUser(false);
             setUserArray([]);
         }

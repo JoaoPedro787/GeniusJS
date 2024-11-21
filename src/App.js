@@ -18,7 +18,7 @@ const App = () => {
   useUserPlayCheck(conditionalStates);
 
   return (
-    <main className="flex w-[100vw] h-[100vh] items-center justify-evenly bg-gray-900 p-4">
+    <main className="flex w-[100vw] h-[100vh] items-center justify-center bg-gray-900 p-4">
       <section className="grid w-full aspect-square max-w-[800px] max-h-[800px] grid-cols-2 grid-rows-2 rounded-full overflow-hidden gap-6 relative flex-none">
 
         {/* Renderização das cores */}
