@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+### Descrição do Projeto: Genius com React JS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O "Genius" é um clássico jogo de memória que testa a habilidade do jogador em recordar e repetir sequências de cores em ordem crescente. A ideia é simples, mas o jogo se torna mais desafiador à medida que a sequência de cores vai ficando mais longa. Este projeto foi desenvolvido utilizando **React JS** para ajudar os desenvolvedores a aprenderem mais sobre o framework, gerenciar estados e trabalhar com componentes interativos.
 
-## Available Scripts
+O projeto proporciona uma ótima oportunidade de aprendizado, principalmente em conceitos de React como **estado (state)**, **efeitos colaterais (useEffect)**, **manipulação de eventos**, e **renderização condicional**. Além disso, a implementação do jogo é uma excelente forma de aplicar **lógica de controle** e **algoritmos simples**, como arrays e loops, dentro de um ambiente de front-end moderno.
 
-In the project directory, you can run:
+Este jogo também ajuda a aprender sobre a interação com o DOM, já que a criação e atualização dos elementos visuais do jogo é feita através de componentes React. Ao final do projeto, os desenvolvedores estarão mais confiantes no uso de **hooks** e **event handling** em React.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### README do Projeto: Genius com React JS
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Genius Game - React JS
 
-### `npm test`
+## Descrição
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Este é um projeto do jogo **Genius**, desenvolvido com **React JS**, que desafia os jogadores a memorizar e repetir sequências de cores em ordem crescente. O jogo aumenta de dificuldade à medida que o jogador acerta cada sequência.
 
-### `npm run build`
+O objetivo do projeto é praticar e entender os conceitos fundamentais do React, como **componentes funcionais**, **estado (state)**, **hooks** (como `useState` e `useEffect`), além de como gerenciar a interação do usuário em uma interface interativa.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Funcionalidades
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- O jogo começa com uma sequência simples de cores.
+- A sequência aumenta em tamanho conforme o jogador acerta a ordem das cores.
+- O jogador perde se errar a sequência.
+- A interface é responsiva e interativa.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Tecnologias Utilizadas
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **React JS** (com hooks)
+- **TailWindCSS** para estilização
+- **React hooks** (`useState`, `useEffect`)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Como Rodar o Projeto
 
-## Learn More
+1. **Clonar o repositório**:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+git clone https://github.com/JoaoPedro787/geniusJS.git
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. **Instalar as dependências**:
 
-### Code Splitting
+```bash
+cd geniusJS-main
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+3. **Rodar o servidor local**:
 
-### Analyzing the Bundle Size
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Abra o navegador em `http://localhost:3000` para jogar!
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
