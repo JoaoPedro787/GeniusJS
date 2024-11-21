@@ -36,7 +36,7 @@ git clone https://github.com/JoaoPedro787/geniusJS.git
 2. **Instalar as dependências**:
 
 ```bash
-cd geniusJS-main
+cd geniusJS
 npm install
 ```
 
