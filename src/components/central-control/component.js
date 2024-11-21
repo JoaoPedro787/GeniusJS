@@ -12,7 +12,7 @@ const CentralControlComponent = ( {params} ) => {
                 return (
                     <div
                         key={item.id}
-                        className={`flex flex-1 text-3xl items-center justify-center transition-all ${item.style} ${playClass}`}
+                        className={`flex flex-1 text-3xl items-center justify-center transition-all ${item.style} ${playClass} max-sm:text-xl`}
                         onClick={() => initializeGame()}
                     >
                         <span className="tracking-widest">{item.value}</span>

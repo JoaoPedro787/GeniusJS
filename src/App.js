@@ -26,7 +26,7 @@ const App = () => {
           params={gameComponents}
         />
 
-        <div className="flex flex-col absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 h-1/2 w-1/2 rounded-full bg-slate-900 items-center justify-center p-10">
+        <div className="flex flex-col absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 h-1/2 w-1/2 rounded-full bg-slate-900 items-center justify-center p-10 max-md:p-4">
           <div className="flex flex-1 w-full rounded-full flex-col justify-center overflow-hidden">
 
             {/* Controle do jogo */}

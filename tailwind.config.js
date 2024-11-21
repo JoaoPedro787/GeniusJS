@@ -8,6 +8,10 @@ module.exports = {
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
       },
+      screens: {
+        'max-md': { 'max': '600px' },
+        'max-sm': { 'max': '420px' }, 
+      },
     },
   },
   plugins: [],
