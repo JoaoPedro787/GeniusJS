@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/geniusJS/static/css/main.2006c4b8.css",
+    "main.js": "/geniusJS/static/js/main.086c190c.js",
+    "static/js/453.44ede89e.chunk.js": "/geniusJS/static/js/453.44ede89e.chunk.js",
+    "index.html": "/geniusJS/index.html",
+    "main.2006c4b8.css.map": "/geniusJS/static/css/main.2006c4b8.css.map",
+    "main.086c190c.js.map": "/geniusJS/static/js/main.086c190c.js.map",
+    "453.44ede89e.chunk.js.map": "/geniusJS/static/js/453.44ede89e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2006c4b8.css",
+    "static/js/main.086c190c.js"
+  ]
+}
