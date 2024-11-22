@@ -1,51 +1,50 @@
 # Genius Game - React JS
 
-## Descrição
+## Description
 
-Este é um projeto do jogo **Genius**, desenvolvido com **React JS**, que desafia os jogadores a memorizar e repetir sequências de cores em ordem crescente. O jogo aumenta de dificuldade à medida que o jogador acerta cada sequência.
+This is a **Genius** game project developed with **React JS**, challenging players to memorize and repeat color sequences in increasing order. The game becomes progressively harder as the player successfully completes each sequence.
 
-O objetivo do projeto é praticar e entender os conceitos fundamentais do React, como **componentes funcionais**, **estado (state)**, **hooks** (como `useState` e `useEffect`), além de como gerenciar a interação do usuário em uma interface interativa.
-
----
-
-## Funcionalidades
-
-- O jogo começa com uma sequência simples de cores.
-- A sequência aumenta em tamanho conforme o jogador acerta a ordem das cores.
-- O jogador perde se errar a sequência.
-- A interface é responsiva e interativa.
+The goal of this project is to practice and understand the fundamental concepts of React, such as **functional components**, **state management**, **hooks** (like `useState`, `useEffect`, and `Context`), and handling user interaction in an interactive interface.
 
 ---
 
-## Tecnologias Utilizadas
+## Features
 
-- **React JS** (com hooks)
-- **TailWindCSS** para estilização
-- **React hooks** (`useState`, `useEffect`)
+- The game starts with a simple color sequence.
+- The sequence grows longer as the player correctly repeats the colors in order.
+- The player loses if they make a mistake in the sequence.
+- The interface is responsive and interactive.
 
 ---
 
-## Como Rodar o Projeto
+## Technologies Used
 
-1. **Clonar o repositório**:
+- **React JS**
+- **TailwindCSS** 
+
+---
+
+## How to Run the Project
+
+1. **Clone the repository**:
 
 ```bash
 git clone https://github.com/JoaoPedro787/geniusJS.git
 ```
 
-2. **Instalar as dependências**:
+2. **Install dependencies**:
 
 ```bash
 cd geniusJS
 npm install
 ```
 
-3. **Rodar o servidor local**:
+3. **Run the local server**:
 
 ```bash
 npm start
 ```
 
-Abra o navegador em `http://localhost:3000` para jogar!
+Open your browser at `http://localhost:3000` to play! 
 
 ---
