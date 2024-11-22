@@ -24,6 +24,12 @@ The goal of this project is to practice and understand the fundamental concepts 
 
 ---
 
+## Live Demo
+
+[**Play the Genius Game**](https://joaopedro787.github.io/geniusJS/)
+
+---
+
 ## How to Run the Project
 
 1. **Clone the repository**:
